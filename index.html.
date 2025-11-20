@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Yves Arthur Gautier Dougueli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Yves Arthur Gautier Dougueli</h1>
+            <p>Étudiant en Master 2 Cybersécurité – Spécialisation Réseaux & Sécurité</p>
+            <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>À propos</h2>
+        <p>
+            Je suis étudiant en <strong>Master 2 Cybersécurité</strong> avec un parcours complet en 
+            <strong>réseaux et infrastructures</strong>. Passionné par la sécurité offensive et défensive,
+            je développe des compétences techniques à travers la mise en place de labs, la participation
+            à des projets pratiques et la préparation de certifications professionnelles.
+            <br><br>
+            Mon objectif est de devenir <strong>SOC Analyst / Cybersecurity Engineer</strong> en combinant
+            mes connaissances en réseaux, mes compétences en détection d’incidents, et mes capacités
+            d’analyse.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+
+            <div class="skill-box">
+                <h3>Cybersécurité</h3>
+                <ul>
+                    <li>Analyse et corrélation de logs (SIEM)</li>
+                    <li>Détection IDS/IPS – Snort, Suricata</li>
+                    <li>OSINT & Threat Intelligence</li>
+                    <li>Gestion d’incidents (SOC Level 1/2)</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h3>Réseaux</h3>
+                <ul>
+                    <li>TCP/IP, VLAN, routage & switching</li>
+                    <li>Configuration Cisco – CCNA/CCNP (en cours)</li>
+                    <li>Pare-feux – pfSense, Fortinet</li>
+                    <li>VPN, NAT, sécurité réseau</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h3>Outils & Technologies</h3>
+                <ul>
+                    <li>Wireshark, Nmap, BurpSuite</li>
+                    <li>ELK, Wazuh, Splunk (bases)</li>
+                    <li>Linux (Debian/Kali), Windows Server</li>
+                    <li>GitHub, Docker, Virtualisation (VMware/Proxmox)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="assets/project1.png" alt="Projet SOC">
+                <h3>Lab SOC & SIEM</h3>
+                <p>
+                    Mise en place d’un lab complet basé sur Wazuh + ELK, avec analyse
+                    de logs, détection d’incidents, création de règles, et automatisation de réponses.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project2.png" alt="Projet réseau">
+                <h3>Architecture Réseau Entreprise</h3>
+                <p>
+                    Conception d’un réseau sécurisé : VLAN, inter-VLAN routing,
+                    firewalling, VPN site-to-site, segmentation, monitoring.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project3.png" alt="Certifications">
+                <h3>Préparation Certifications</h3>
+                <p>
+                    Préparation CCNA, CCNP ENCOR, CompTIA Security+, et AZ-900.
+                    Mise en place d’un planning d’apprentissage structuré.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>N’hésite pas à me contacter :</p>
+        <ul>
+            <li>Email : <strong>votre-email@gmail.com</strong></li>
+            <li>GitHub : <strong>github.com/votre-profil</strong></li>
+            <li>LinkedIn : <strong>linkedin.com/in/votre-profil</strong></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 – Portfolio de Yves Arthur Gautier Dougueli</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
