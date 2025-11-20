@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f1a;
+    color: white;
+}
+
+header.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4b2ae8, #7a52ff);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: white;
+    color: #4b2ae8;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+section {
+    padding: 70px 10%;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #7a52ff;
+}
+
+#about p {
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    flex: 1;
+    min-width: 250px;
+    background: #1a1a2e;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.skill-box h3 {
+    color: #9a7bff;
+}
+
+/* Projects */
+.projects-grid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #1a1a2e;
+    padding: 15px;
+    border-radius: 12px;
+    width: 30%;
+    min-width: 250px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #12121f;
+    color: #aaa;
+}
